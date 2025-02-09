@@ -1,0 +1,41 @@
+Central Limit Theorem (CLT) in Machine Learning
+
+What is CLT?
+
+The Central Limit Theorem (CLT) states that:
+
+	If we take a large number of random samples from any population (regardless of its original distribution), the distribution of the sample means will approximate a normal distribution as the sample size increases.
+
+Mathematically:
+
+If ￼ are independent, identically distributed (i.i.d.) random variables with:
+	•	Mean ￼
+	•	Standard deviation ￼
+
+Then, the sampling distribution of the sample mean follows:
+￼
+where ￼ is the standard error.
+
+When to Use CLT in Machine Learning?
+	1.	Feature Scaling & Data Normalization
+	•	Some ML models (e.g., Linear Regression, Logistic Regression, SVM) assume normally distributed features.
+	•	CLT allows us to assume approximate normality if we use aggregated data or large samples.
+	2.	Hypothesis Testing & Statistical Inference
+	•	Used in A/B testing, confidence intervals, t-tests, and p-value calculations.
+	•	Helps in estimating population parameters using a sample.
+	3.	Bootstrap Sampling in ML
+	•	Bootstrapping involves repeatedly sampling data with replacement and calculating sample statistics.
+	•	CLT ensures that the mean of bootstrap samples follows a normal distribution, helping estimate uncertainty in model parameters.
+	4.	Resampling Techniques (Cross-Validation, Bagging)
+	•	ML models like Random Forest, Bagging classifiers rely on sampling.
+	•	CLT helps in understanding the distribution of errors across multiple model runs.
+	5.	Parameter Estimation in Bayesian Methods
+	•	CLT helps approximate posterior distributions as normal in Bayesian Inference.
+	6.	Anomaly Detection & Outlier Analysis
+	•	If the feature follows CLT, extreme values deviating from normality can be treated as anomalies.
+
+Key Takeaway
+
+CLT is widely used in ML for data normalization, hypothesis testing, resampling methods, and uncertainty estimation. It ensures that sample means are normally distributed, allowing for robust statistical inference.
+
+
