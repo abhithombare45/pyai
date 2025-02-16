@@ -4,16 +4,19 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from sklearn.neighbors import KNeighborsRegressor
 from sklearn.model_selection import train_test_split
-# %matplotlib inline
 
+
+# import matplotlib as plt
 
 # Read the data from the file "Advertising.csv"
 df = pd.read_csv("/Users/abhijeetthombare/ab_lib/Projects/EdX_DS_stat/Advertising.csv")
 
 df.head()
+
+
 # Get a subset of the data i.e. rows 5 to 13
 # Use the TV column as the predictor
-x_true = df.TV.iloc[5:13] 
+x_true = df.TV.iloc[5:13]
 
 # Use the Sales column as the response
 y_true = df.Sales.iloc[5:13]
@@ -71,7 +74,7 @@ plt.ylabel("Sales in $1000")
 # PART 2 : kNN for k >=1 using sklearn
 
 # Read the data from the file "Advertising.csv"
-data_filename = "Advertising.csv"
+data_filename = "/Users/abhijeetthombare/ab_lib/Projects/EdX_DS_stat/Advertising.csv"
 df = pd.read_csv(data_filename)
 
 # Set 'TV' as the 'predictor variable'
