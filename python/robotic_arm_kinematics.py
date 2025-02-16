@@ -5,7 +5,7 @@ from matplotlib.animation import FuncAnimation
 # Lengths of the links
 L1, L2 = 2, 1.5
 
-# Define the joint angles (changing over time for animation)-
+# Define the joint angles (changing over time for animation)
 theta1_vals = np.linspace(0, np.pi / 2, 100)
 theta2_vals = np.linspace(0, -np.pi / 4, 100)
 
