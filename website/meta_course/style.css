@@ -1,0 +1,32 @@
+h1{
+    color: purple;
+    text-transform: uppercase;
+    text-align: center;
+}
+h2{
+    color: brown;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#hdr2{
+    color: hsl(43, 79%, 21%, 0.793);
+    text-transform: uppercase;
+    text-align: center;
+}
+
+p{
+    color: green;  
+    text-align: center;  
+}
+
+p:hover{
+    color: rgb(136, 0, 255);
+    text-transform: uppercase;
+    text-align: justify;
+}   
+
+#addr{
+    font-style: italic;
+    float: right
+}
