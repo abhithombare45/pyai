@@ -1,16 +1,22 @@
+body {
+    background: linear-gradient(to top, blue, white); /* Fade from blue to white upwards */
+    height: 140vh; /* Ensure the body takes full viewport height */
+    margin: 0; /* Remove default body margins */
+  }
+
 h1{
     color: purple;
     text-transform: uppercase;
     text-align: center;
 }
 h2{
-    color: brown;
+    color: black;
     text-transform: uppercase;
     text-align: center;
 }
 
 #hdr2{
-    color: hsl(43, 79%, 21%, 0.793);
+    color: black;
     text-transform: uppercase;
     text-align: center;
 }
@@ -21,9 +27,9 @@ p{
 }
 
 p:hover{
-    color: rgb(136, 0, 255);
+    color: rgb(0, 0, 0);
     text-transform: uppercase;
-    text-align: justify;
+    text-align: center;
 }   
 
 #addr{
