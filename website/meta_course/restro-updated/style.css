@@ -1,0 +1,39 @@
+body {
+    border: 7px solid blue;
+    background: linear-gradient(to top, beige, blue, beige); /* Fade from blue to white upwards */
+    height: 140vh; /* Ensure the body takes full viewport height */
+    margin: 0; /* Remove default body margins */
+  }
+
+h1{
+    color: purple;
+    text-transform: uppercase;
+    text-align: center;
+}
+h2{
+    color: black;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#hdr2{
+    color: black;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+p{
+    color: green;  
+    text-align: center;  
+}
+
+p:hover{
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    text-align: center;
+}   
+
+#addr{
+    font-style: italic;
+    float: right
+}
